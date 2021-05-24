@@ -1,4 +1,5 @@
 from random import randint
+from time import sleep
 
 def lin():
     print('==' * 30)
@@ -38,3 +39,9 @@ while True:
     else:
         for c in range(0, len(itens) - 1):
             del(itens[c])
+
+thanks ='Thanks you very much for use this program, I hope you are satisfied' 
+
+for l in thanks:
+    print(l, end='', flush=True)
+    sleep(0.1)
