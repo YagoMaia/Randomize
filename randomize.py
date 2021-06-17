@@ -5,6 +5,15 @@ from time import sleep
 def lin():
     print('==' * 30)
 
+print('''
+ ____                 _                 _         
+|  _ \ __ _ _ __   __| | ___  _ __ ___ (_)_______ 
+| |_) / _` | '_ \ / _` |/ _ \| '_ ` _ \| |_  / _ \ 
+|  _ < (_| | | | | (_| | (_) | | | | | | |/ /  __/ 
+|_| \_\__,_|_| |_|\__,_|\___/|_| |_| |_|_/___\___|
+                                                  
+''')
+
 # Do the program play until the user say no
 while True:
     # Create the main list
